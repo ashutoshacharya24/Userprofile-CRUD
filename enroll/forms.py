@@ -20,11 +20,4 @@ class StudentRegistration(forms.ModelForm):
         if len(valpass)<8:
             forms.ValidationError('Enter more than or equal to 8')
         return valpass
-    # def clean_phoneNumber(self):
-    #     valNumber = self.cleaned_data['phoneNumber']
-    #     if len(valNumber)<10:
-    #         forms.ValidationError('Enter a valid number')
-    #     elif len(valNumber)>10:
-    #         forms.ValidationError('Enetr a valid number')
-    #     else:
-    #         return valNumber
+   
