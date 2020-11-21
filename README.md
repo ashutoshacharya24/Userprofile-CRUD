@@ -1,2 +1,2 @@
 # UserProfile-CRUD
- CRUD operation in userDatabase
+ CRUD operation in userDatabase using django ``Form`` and ``DTL``
