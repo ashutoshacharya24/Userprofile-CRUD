@@ -18,4 +18,4 @@ class StudentRegistration(forms.ModelForm):
             'password':forms.PasswordInput(render_value=True, attrs={'class':'form-control'}),
             'comment':forms.TextInput(attrs={'class':'form-control'}),
             
-        }```
+        }
